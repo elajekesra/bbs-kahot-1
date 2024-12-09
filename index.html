@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBS Kahoot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BBS Kahoot</h1>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Hadi başlayalım!</h2>
+            <p>Kendi oyununuzu oluşturun veya bir oyuna katılın.</p>
+            <div class="actions">
+                <button id="create-game" class="btn-primary">Yeni Oyun Oluştur</button>
+                <div class="join-game">
+                    <input id="game-code" type="text" placeholder="Oyun Kodu Girin">
+                    <button id="join-game" class="btn-secondary">Katıl</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 BBS Kahoot.BY KESRA.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+<footer>
+    <p>&copy; 2025 BBS Kahoot.BY KESRA.</p>
+    <!-- Dil Seçici -->
+    <div class="language-selector">
+        <label for="language">Sprache wählen:</label>
+        <select id="language" onchange="changeLanguage()">
+            <option value="tr">Türkçe</option>
+            <option value="de">Deutsch</option>
+            <option value="fa">فارسی</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+</footer>
+
